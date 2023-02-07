@@ -1,0 +1,5 @@
+Question 2. You need to find a file named myfile.txt somewhere in your Linux file system. Which is thecorrect command to do this? [2]
+
+find /path -type f -name test.txt
+
+This will search for a file named myfile.txt starting from the root directory (/) and descending into subdirectories. The -name option specifies the name of the file to search for.
